@@ -1,3 +1,88 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans";
+}
+
+/* Shared styles */
+
+.dark-one {
+    color: #181818;
+}
+
+.dark-two {
+    color: #474747;
+}
+
+.dark-three {
+    color: #757575;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+.primary-color {
+    color: #FD6E0A;
+}
+
+.primary-btn-color {
+    background-color: #FD6E0A;
+}
+
+.section-heading {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+
+/* Navigation bar */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-right: 230px;
+    margin-left: 226px;
+}
+
+nav h3 {
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 51px;
+
+}
+
+.nav-links li {
+    list-style-type: none;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #474747;
+}
+
+.hire-me-btn {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 18px 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color: aliceblue;
+}
+
+
+
