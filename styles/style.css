@@ -95,6 +95,10 @@ nav {
 
 /* Hero section */
 
+header {
+    margin-bottom: 130px;
+}
+
 .hero {
     display: flex;
     align-items: center;
@@ -144,3 +148,42 @@ nav {
     margin-right: 30px;
 }
 
+
+/* About me section */
+
+.about-me {
+    text-align: center;
+    background-color: #FFF8F3;
+    margin: 0 230px;
+    padding: 131px 156.5px;
+    border-radius: 10px;
+
+    h3 {
+        margin-bottom: 30px;
+    }
+}
+
+.about-me-card {
+    background-color: #fff;
+}
+
+.description {
+    font-size: 18px;
+    line-height: 1.67;
+    margin-bottom: 30px;
+}
+
+.biodata {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.name, .email, .birth-date, .location  {
+    font-size: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
